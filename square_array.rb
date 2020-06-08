@@ -1,6 +1,9 @@
 def square_array(array)
-  array.each do |number|
-    number**2
-  return array
+  i = 0
+  until i == array.length
+    array.each do |number|
+      array[i] = number**2
+      i += 1
+    end
   end
 end

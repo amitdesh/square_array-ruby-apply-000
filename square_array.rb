@@ -3,5 +3,6 @@ def square_array(array)
   array.each do |number|
     square = number**2
     square_array.push(square)
+  return square_array
   end
 end
